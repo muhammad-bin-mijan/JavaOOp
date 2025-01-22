@@ -1,0 +1,21 @@
+import java.util.Scanner;
+class InverseTriangle
+{
+    public static void main(String[] args)
+    {
+       Scanner obj =new Scanner(System.in);
+       int row= obj.nextInt();
+
+       for(int i=1;i<=row;i++)
+       {
+         for(int col=1;col<=(row-i+1);col++)
+         {
+            System.out.print(col);
+
+
+         }
+         System.out.println();
+
+       }
+    }
+}

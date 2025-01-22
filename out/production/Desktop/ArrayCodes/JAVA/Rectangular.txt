@@ -1,0 +1,19 @@
+
+import java.util.Scanner;
+public class Rectangular
+{
+    public static void main(String[] args)
+    {
+        Scanner sc=new Scanner(System.in);
+        int N=sc.nextInt();
+        for(int row=1;row<=N;row++)
+        {
+            for(int col=1;col<=N;col++)
+            {
+                System.out.print(col);
+            }
+            System.out.println( );
+
+        }
+    }
+}
